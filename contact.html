@@ -1,0 +1,48 @@
+<html>
+
+    <head>
+
+        <meta charset="UTF-8">
+        <title>UP</title>
+        <link rel="stylesheet" href="style.css" media="screen"/>
+    
+    </head>
+
+    <h1>Contacter</h1>
+
+    <form id="contact" action="" methode="">
+        <fieldset>
+
+            <legend>informations personnelles</legend>
+
+            <label for="nom"> Nom : </label>
+            <input type="text" id="nom" name="nom" required placeholder="Entrez votre nom"><br/>
+
+            <label for="prenom"> Prénom : </label>
+            <input type="text" id="prenom" name="prenom" required placeholder="Entrez votre prénom"><br/>
+
+            <label for="email"> Email : </label>
+            <input type="mail" id="mail" name="mail" required placeholder="Entrez votre email"><br/>
+
+            <label for="message"> Votre message : </label>
+                <textarea id="message" name="message" cols="95" rows="5" required placeholder="Tapez votre message"></textarea>
+
+                <input type="submit" value="envoyer"/></br>
+
+            <label for="date"> date </label>    
+            <input type="date" id="date" name="date" required placeholder="calendrier"><br/>
+
+            <label for="color"> couleur </label>    
+            <input type="color" id="color" name="color" required placeholder="sélecteur de couleur"><br/>
+
+            <label for="url"> caractères </label>    
+            <input type="url" id="url" name="url" required placeholder="caractères"><br/>
+
+            <label for="tel"> Téléphone : </label>    
+            <input type="tel" id="tel" name="tel" required placeholder="Entrez votre téléphone" pattern="[0-9]{10}">
+                <input type="submit" value="envoyer"/></br>
+
+        </fieldset>
+    </form>
+
+</html>
